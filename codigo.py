@@ -1,7 +1,7 @@
 import turtle as a
 import base64 as b
 
-c = "dC5seS9leEREbyAKCkZMQUcye2xhX2hpc3RvcmlhX25vX29sdmlkYV9mYWNpbG1lbnRlfQ=="
+c = "RkxBRzE6e0VsX2Nvbm9jaW1pZW50b19lc19wb2Rlcn0="
 
 d = getattr(b, "b64decode")(c.encode())
 e = "".join(map(chr, d))

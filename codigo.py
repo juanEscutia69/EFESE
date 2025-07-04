@@ -1,7 +1,6 @@
 import turtle as a
 import base64 as b
 
-# Mensaje: "t.ly/exDDo\n\nFLAG2{la_historia_no_olvida_facilmente}"
 c = "dC5seS9leEREbyAKCkZMQUcye2xhX2hpc3RvcmlhX25vX29sdmlkYV9mYWNpbG1lbnRlfQ=="
 
 d = getattr(b, "b64decode")(c.encode())
